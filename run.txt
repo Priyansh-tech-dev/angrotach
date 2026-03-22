@@ -1,0 +1,64 @@
+✅ How to Run the Project (With Simple Explanation)
+
+Your project has 3 parts: Backend, Frontend, and Admin.
+You must run each one separately in 3 different terminals.
+
+1️⃣ Run Backend (Server)
+cd backend
+npm start
+
+Explanation:
+
+cd backend 
+npm start 
+
+This runs your API and connects to the database
+
+Usually runs on: http://localhost:5000
+
+👉 Backend must run first because frontend and admin depend on it.
+
+2️⃣ Run Frontend (User Website)
+
+Open a new terminal, then:
+
+cd frontend
+npm start
+
+Explanation:
+
+Starts the user website
+
+Opens in browser (usually http://localhost:3000)
+
+Connects to backend to get data
+
+3️⃣ Run Admin Panel
+
+Open another new terminal, then:
+
+cd admin
+npm run dev
+
+Explanation:
+
+Starts the admin dashboard
+
+Used to manage data (products, users, etc.)
+
+Usually runs on another port like 5173
+
+⚠️ Important (Only First Time)
+
+Before running, install dependencies in each folder:
+
+npm install
+🎯 Final Order
+
+Start Backend
+
+Start Frontend
+
+Start Admin
+
+That’s it — your full project will be running 🚀

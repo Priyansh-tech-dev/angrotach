@@ -1,0 +1,74 @@
+Folder PATH listing for volume New Volume
+Volume serial number is 881A-F16E
+D:.
+¦   structure.txt
+¦   
++---admin
+¦   ¦   angular.json
+¦   ¦   package.json
+¦   ¦   tsconfig.app.json
+¦   ¦   tsconfig.json
+¦   ¦   
+¦   +---src
+¦       ¦   favicon.ico
+¦       ¦   index.html
+¦       ¦   main.ts
+¦       ¦   styles.css
+¦       ¦   
+¦       +---app
+¦               ai-logs.component.ts
+¦               api.service.ts
+¦               app.component.ts
+¦               app.module.ts
+¦               auth.interceptor.ts
+¦               auth.service.ts
+¦               crops.component.ts
+¦               dashboard.component.ts
+¦               login.component.ts
+¦               navbar.component.ts
+¦               users.component.ts
+¦               weather-logs.component.ts
+¦               
++---Backend
+¦   ¦   .env
+¦   ¦   package-lock.json
+¦   ¦   package.json
+¦   ¦   server.js
+¦   ¦   
+¦   +---models
+¦   ¦       AiQuery.js
+¦   ¦       Crop.js
+¦   ¦       DiseaseRecord.js
+¦   ¦       User.js
+¦   ¦       WeatherLog.js
+¦   ¦       
+¦   +---uploads
+¦       ¦   README.txt
+¦       ¦   
+¦       +---crops
++---frontend
+    ¦   angular.json
+    ¦   package-lock.json
+    ¦   package.json
+    ¦   tsconfig.app.json
+    ¦   tsconfig.json
+    ¦   
+    +---src
+        ¦   favicon.ico
+        ¦   index.html
+        ¦   main.ts
+        ¦   styles.css
+        ¦   
+        +---app
+                ai.component.ts
+                api.service.ts
+                app.component.ts
+                app.module.ts
+                auth.component.ts
+                auth.interceptor.ts
+                auth.service.ts
+                home.component.ts
+                mandi.component.ts
+                navbar.component.ts
+                weather.component.ts
+                
