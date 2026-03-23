@@ -3,6 +3,31 @@
 Your project has 3 parts: Backend, Frontend, and Admin.
 You must run each one separately in 3 different terminals.
 
+
+📄 Step 1: Create the file
+
+Inside your backend project directory, create a file named:
+
+.env
+
+🧩 Step 2: Add this code inside .env
+
+MONGO_URI=mongodb://localhost:27017/agrotech_100
+JWT_SECRET=supersecretjwtkey
+PORT=4000
+GEMINI=
+
+
+⚠️ Important notes
+Make sure there are no spaces before or after =
+Do not wrap values in quotes
+Keep .env out of version control (add it to .gitignore)
+Fill in GEMINI with your API key if you're using it
+
+
+
+
+
 1️⃣ Run Backend (Server)
 cd backend
 npm start
